@@ -1,5 +1,46 @@
-.titulo
+.fundo
        {
-        font-size: 10px;
+        background-color: rgb(255, 255, 255);
 
         }   
+
+.campo 
+       {
+        padding:13px ; 
+        background-color: transparent;
+        border: 1px solid grey;
+        border-radius: 20px;     
+        color: black;
+        font-size: 20px;
+        width: 600px;      
+       }        
+
+.botao01
+       {
+        padding: 10px 20px; 
+        border-radius: 14px;
+        background-color: rgb(247, 249, 250);  
+        border: 1px solid white;
+        cursor: pointer;  
+       }       
+
+       .botao02
+       {
+        padding: 10px 17px; 
+        border-radius: 14px;
+        background-color: rgb(247, 249, 250);    
+        border: 1px solid white; 
+        cursor: pointer;
+       }  
+      
+.botao01:hover {
+                 border: 1px solid grey;
+                
+                }       
+
+.botao02:hover {
+                     border: 1px solid grey;
+                    
+                }                    
+
+       
